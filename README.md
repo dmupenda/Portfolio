@@ -1,16 +1,45 @@
-# React + Vite
+### React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+https://dmupenda.github.io/Portfolio/
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is a personal portfolio built with React and Vite for my Web Technologies course. It introduces my technical interests, education, skills, projects, and contact information.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Home, Experience, Projects, and Contact pages
+Individual detail pages for each project
+Reusable React components
+Project filtering with a URL-bookmarkable search
+Responsive styling and keyboard focus indicators
+Client-side navigation and not-found handling
 
-## Expanding the Oxlint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+React
+Vite
+React Router 
+JavaScript
+CSS
+Git and GitHub
+GitHub Pages and GitHub Actions
+
+## Run Locally
+
+1.Install Node.js.
+2.Clone this repository
+3.Open the project directory in a terminal.
+4.Install dependencies: 
+  npm install 
+5.Start the development server: 
+  npm run dev
+6.Open the local URL printed in the terminal.
+
+## Validation
+
+Run npm run lint to check the source code and npm run build to create the production build. 
+
+## Deployment
+
+The site is published using GitHub Pages through a GitHub Actions workflow. 
